@@ -1,0 +1,100 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\can.acar\\RiderProjects\\RabbitMqMassTransitMetrobusHangfire\\RabbitMqMassTransitMetrobusHangfire\\RabbitMqMassTransitMetrobusHangfire.csproj",
+    "projectName": "RabbitMqMassTransitMetrobusHangfire",
+    "projectPath": "C:\\Users\\can.acar\\RiderProjects\\RabbitMqMassTransitMetrobusHangfire\\RabbitMqMassTransitMetrobusHangfire\\RabbitMqMassTransitMetrobusHangfire.csproj",
+    "outputPath": "C:\\Users\\can.acar\\RiderProjects\\RabbitMqMassTransitMetrobusHangfire\\RabbitMqMassTransitMetrobusHangfire\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Autofac": {
+          "target": "Package",
+          "version": "[4.9.3, )"
+        },
+        "Autofac.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[4.4.0, )"
+        },
+        "Hangfire": {
+          "target": "Package",
+          "version": "[1.7.5, )"
+        },
+        "Hangfire.Autofac": {
+          "target": "Package",
+          "version": "[2.3.1, )"
+        },
+        "MassTransit": {
+          "target": "Package",
+          "version": "[5.5.3, )"
+        },
+        "MetroBus": {
+          "target": "Package",
+          "version": "[2.0.4, )"
+        },
+        "MetroBus.Autofac": {
+          "target": "Package",
+          "version": "[1.0.4, )"
+        },
+        "MetroBus.Core": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "MetroBus.Microsoft.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[1.0.4, )"
+        },
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.2.6, )"
+        },
+        "Microsoft.AspNetCore.HttpsPolicy": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
